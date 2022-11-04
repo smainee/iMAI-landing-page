@@ -4,7 +4,7 @@ import React from "react";
 const WhatWeDo = (props: any) => {
   return (
     <div className= {props.reverse} >
-      <Image src={props.img} width={750} height={100} />
+      <Image src={props.img} width={750} height={100} alt="" />
       <div className="content">
         <ul className="titile text-lg leading-loose	space-x-10">
           <li className="font-bold text-2xl mb-5 flex space-x-5 flex">
